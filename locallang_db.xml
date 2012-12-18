@@ -25,6 +25,7 @@
 			<label index="tx_recordsmanager_config.exportmode.I.1">XML</label>
 			<label index="tx_recordsmanager_config.exportmode.I.2">CSV</label>
 			<label index="tx_recordsmanager_config.exportmode.I.3">EXCEL</label>
+			<label index="tx_recordsmanager_config.dateformat">Display date fields in short format</label>
 			<label index="tx_recordsmanager_config.permsgroup">Display only for this be_groups</label>
 			<label index="tx_recordsmanager_config.insertdefaultpid">Extends possible PIDs</label>
 			<label index="tx_recordsmanager_config.insertchoosepid">Allow to choose a PID</label>
@@ -49,6 +50,7 @@
 			<label index="tx_recordsmanager_config.exportmode.I.1">XML</label>
 			<label index="tx_recordsmanager_config.exportmode.I.2">CSV</label>
 			<label index="tx_recordsmanager_config.exportmode.I.3">EXCEL</label>
+			<label index="tx_recordsmanager_config.dateformat">Afficher les champs de date au format court</label>
 			<label index="tx_recordsmanager_config.permsgroup">Afficher que pour les be_groups suivants</label>
 			<label index="tx_recordsmanager_config.insertdefaultpid">Surcharger les PID possibles</label>
 			<label index="tx_recordsmanager_config.insertchoosepid">Autoriser le choix de pid</label>
@@ -72,6 +74,7 @@
 			<label index="tx_recordsmanager_config.exportmode.I.1">XML</label>
 			<label index="tx_recordsmanager_config.exportmode.I.2">CSV</label>
 			<label index="tx_recordsmanager_config.exportmode.I.3">EXCEL</label>
+			<label index="tx_recordsmanager_config.dateformat">Wyświetlić pola daty w formacie krótkim</label>
 			<label index="tx_recordsmanager_config.permsgroup">Wyświetlaj tylko dla tych grup (be_group)</label>
 			<label index="tx_recordsmanager_config.insertdefaultpid">Rozszerz listę dostępnych wartości PID</label>
 			<label index="tx_recordsmanager_config.insertchoosepid">Pozwól na wybór wartości PID</label>

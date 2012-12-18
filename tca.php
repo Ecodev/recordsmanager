@@ -127,6 +127,14 @@ $TCA['tx_recordsmanager_config'] = array(
 				'size' => 10,
 			)
 		),
+		'dateformat' => array(
+			'exclude' => 0,
+			'label' => 'LLL:EXT:recordsmanager/locallang_db.xml:tx_recordsmanager_config.dateformat',
+			'config' => array(
+				'type' => 'check',
+				'default' => '0',
+			)
+		),
 		'permsgroup' => array(
 			'exclude' => 0,
 			'label' => 'LLL:EXT:recordsmanager/locallang_db.xml:tx_recordsmanager_config.permsgroup',
@@ -159,7 +167,7 @@ $TCA['tx_recordsmanager_config'] = array(
 	'types' => array(
 		'0' => array('showitem' => 'hidden;;1;;1-1-1, title;;;;2-2-2, type;;;;2-2-2, sqltable;;;;3-3-3, sqlfields, sqlfieldsinsert, extrawhere, extragroupby, extraorderby, extralimit, permsgroup'),
 		'1' => array('showitem' => 'hidden;;1;;1-1-1, title;;;;2-2-2, type;;;;2-2-2, sqltable;;;;3-3-3, sqlfieldsinsert, insertdefaultpid, insertchoosepid, permsgroup'),
-		'2' => array('showitem' => 'hidden;;1;;1-1-1, title;;;;2-2-2, type;;;;2-2-2, sqltable;;;;3-3-3, exportmode, sqlfields, extrawhere, extragroupby, extraorderby, extralimit, exportfilterfield, permsgroup')
+		'2' => array('showitem' => 'hidden;;1;;1-1-1, title;;;;2-2-2, type;;;;2-2-2, sqltable;;;;3-3-3, exportmode, sqlfields, extrawhere, extragroupby, extraorderby, extralimit, exportfilterfield, dateformat, permsgroup')
 	),
 	'palettes' => array(
 		'1' => array('showitem' => '')
